@@ -1,0 +1,36 @@
+table, td {
+    border: 1px solid #c4dcf3;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table, td, th, tfoot {
+    border-right: none;
+    border-left: none;
+}
+
+th {
+    background-color: #427fef;
+}
+
+tr:nth-child(odd) {
+    background-color: #eef7ff;
+}
+
+th, tfoot {
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+tfoot {
+    text-align: left;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: tomato;
+    box-shadow: 10px 10px lightgrey;
+}
